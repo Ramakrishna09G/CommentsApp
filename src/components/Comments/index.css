@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.comments-app-container {
+  height: auto;
+  width: 350px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .comments-app-container {
+    width: 70%;
+    padding: 35px;
+    padding-left: 55px;
+  }
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 45px;
+  }
+}
+.user-comments-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .user-comments-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.user-comments-entry-section {
+  order: 2;
+}
+@media screen and (min-width: 768px) {
+  .user-comments-entry-section {
+    order: 1;
+  }
+}
+.comments-img {
+  order: 1;
+  height: 180px;
+  width: 280px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .comments-img {
+    order: 2;
+    height: 280px;
+    width: 350px;
+  }
+}
+.sub-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.input-name {
+  margin-bottom: 10px;
+  height: 35px;
+  width: 326px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+}
+.comment-text {
+  width: 326px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-top: 6px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+}
+.add-comment-btn {
+  background-color: #0284c7;
+  height: 35px;
+  width: 135px;
+  color: #dee0e3;
+  border: none;
+  border-radius: 5px;
+}
+.sub-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.comments-count {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  margin-right: 4px;
+}
+.comments-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-top: 0px;
+}
